@@ -419,7 +419,7 @@
           </p>
         </div>
 
-        <div class="stn-icon-ft">
+        <div class="container stn-icon-ft">
           <p class="text-icons-p">Social media</p>
           <ul class="list ft-section-icn">
             <li class="wrapper-icons-footer">
@@ -458,19 +458,22 @@
 
         <div>
           <p class="text-icons-p">Subscribe</p>
-          <form class="footer-form" name="subscribe-form">
-            <input
-              class="footer-form-input"
-              name="subscribe-email"
-              type="email"
-              placeholder="E-mail"
-            />
-            <button class="btn-subscribe" type="submit">
-              Subscribe
-              <svg class="icon-plane" width="24" height="24">
-                <use href="./images/icons.svg#icon-plane"></use>
-              </svg>
-            </button>
+          <form class="footer-form-label" name="subscribe-form">
+            <label class="footer-form" for="subscribe-email">
+              <input
+                class="footer-form-input"
+                name="subscribe-email"
+                type="email"
+                id="subscribe-email"
+                placeholder="E-mail"
+              />
+              <button class="btn-subscribe" type="submit">
+                Subscribe
+                <svg class="icon-plane" width="24" height="24">
+                  <use href="./images/icons.svg#icon-plane"></use>
+                </svg>
+              </button>
+            </label>
           </form>
         </div>
       </div>
@@ -533,7 +536,6 @@
           <label class="label-style" for="user-comment">Comment</label>
           <textarea
             class="modal-form-coment"
-            type="text"
             name="user-comment"
             id="user-comment"
             placeholder="Text input"

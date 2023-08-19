@@ -799,11 +799,11 @@ background-color: var(--green);
   width: 264px;
   height: 40px;
 
-  padding: 8px 16px;
+  padding-left: 16px;
 
   font-size: 12px;
-  line-height: 0, 24;
-  letter-spacing: 0, 04em;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 
   outline: transparent;
   border-radius: 4px;
@@ -815,12 +815,18 @@ background-color: var(--green);
 }
 
 .footer-form-input::placeholder {
-  color: var(--white, #FFF);
+  color: var(--white);
 }
 
 .btn-subscribe {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+  min-width: 165px;
+
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   padding: 8px 24px;
   gap: 16px;
 
@@ -833,6 +839,7 @@ background-color: var(--green);
 
 .icon-plane {
  fill: var(--white);
+margin-left: 16px;
 }
 
 
