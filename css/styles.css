@@ -790,9 +790,13 @@ background-color: var(--green);
 
 /* Footer form */
 
+.footer-form-label {
+    display: flex;
+    gap: 24px;
+}
+
 .footer-form {
-  display: flex;
-  gap: 24px;
+ 
 }
 
 .footer-form-input {
