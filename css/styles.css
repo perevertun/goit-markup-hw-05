@@ -1044,14 +1044,15 @@ margin-bottom: 24px;
   width: 16px;
   height: 16px;
   margin-right: 8px;
-  
+
+  background-color: transparent;
   color: transparent;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   transition: background-color var(--animation), border var(--animation), fill var(--animation) ;
 }
 
-input[type="checkbox"]:checked + .agreement-checkbox {
+input:checked + label > span {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
@@ -1059,7 +1060,7 @@ input[type="checkbox"]:checked + .agreement-checkbox {
 
 
 .checkbox-icon {
-  fill: currentColor
+  fill: var(--cloud);
 }
 
 
