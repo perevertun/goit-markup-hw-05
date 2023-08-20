@@ -1004,7 +1004,7 @@ font-size: 12px;
 font-weight: 400;
 line-height: 1.17;
 letter-spacing: 0.04em;
-color: var(--navyblue);
+color: rgba(46, 47, 66, 0.4);
 
 border-radius: 4px;
 border: 1px solid rgba(46, 47, 66, 0.4);
@@ -1053,8 +1053,8 @@ margin-bottom: 24px;
 
 input[type="checkbox"]:checked + .agreement-checkbox {
   background-color: var(--iris);
-  border: var(--iris);
-  color: var(--white);
+  border: none;
+  fill: var(--cloud)
 }
 
 
@@ -1072,7 +1072,7 @@ input[type="checkbox"]:checked + .agreement-checkbox {
   letter-spacing: 0.04em;
 }
 
-.accent-link-modal {
+.accent-link-modal { 
   color: var(--iris);
   line-height: 0, 16;
 }
